@@ -84,7 +84,6 @@ export const useUserStore = defineStore('user', () => {
       fetchCurrentUser()
       return el
     })
-    console.log(newUserList)
 
     sessionStorage.setItem('users', JSON.stringify(newUserList))
   }
